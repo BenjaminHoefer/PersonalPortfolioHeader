@@ -1,0 +1,114 @@
+/* Import fonds */
+
+@font-face {
+    font-family: "poppinsReg";
+    src: url(../fonts/Poppins-Regular.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "poppinsBold";
+    src: url(../fonts/Poppins-Bold.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppinsReg", sans-serif;
+}
+
+/* Navigation */
+
+nav {
+    width: 100%;
+    background: linear-gradient(to right, lightsalmon 0%, lightsalmon 65%, lightsteelblue 65%, lightsteelblue 100%);;
+}
+
+.flex-container-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 1vh 1vw;
+}
+
+.flex-container-nav h1 {
+    margin-right: auto;
+    font-size: 1.5em;
+    letter-spacing: 2.5px;
+    color: white;
+}
+
+nav a {
+    padding: 0.5% 3.5%;
+    font-family: "poppinsBold", sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 2.5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: lemonchiffon;
+    color: lightsalmon;
+}
+
+/* Header */
+
+header {
+    background: linear-gradient(to right, lightsalmon  0%, lightsalmon 65%, lightsteelblue 65%, lightsteelblue 100%);
+}
+
+.flex-container-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.introduction {
+    width: 35%;
+    color: white;
+}
+
+.introduction h1 {
+    font-size: 5rem;
+    font-family: "poppinsBold", sans-serif;
+}
+
+.introduction p {
+    font-size: 1.5rem;
+} 
+
+.introduction button {
+    margin-top: 40px;
+    padding: 1.5% 10%;
+    background-color: lightsteelblue;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.introduction button:hover {
+    background-color: lemonchiffon;
+    color: lightsteelblue;
+}
+
+.picture {
+    width: 30%;
+    max-width: 500px;
+}
+
+.picture img {
+    width: 100%;
+    background-size: cover;
+}
